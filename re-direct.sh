@@ -4,7 +4,7 @@ package=xclip
 
 sudo apt install $package >> package_install_results.log
 
-if [ $? -eq 0 }
+if [ $? -eq 0 ]
 
 then
 
