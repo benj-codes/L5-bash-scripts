@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 echo "Which of these would you like to find out the command for?"
 
