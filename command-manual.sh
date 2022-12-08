@@ -4,6 +4,7 @@
 commands="mkdir,pwd,touch,rm,cd,invalid"
 
 # Asking for user input
+command_menu() {
 echo "Which of these would you like to find out the command for?"
 
 echo "1 - create directories"
@@ -23,3 +24,5 @@ case $command in
         5) echo ${commands:19:2};;
         *) echo "invalid option"
 esac
+}
+command_menu
